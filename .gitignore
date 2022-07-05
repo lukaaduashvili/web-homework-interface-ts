@@ -1,0 +1,22 @@
+.idea/*
+/.yarn/*
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!/.yarn/cache
+#/.pnp.*
+index-solution.html
+.yarn
+.parcel-cache
+.editorconfig
+docs/
+dist/
+server-tests/
+*_solution.*
+.vscode
+node_modules/
+.DS_Store

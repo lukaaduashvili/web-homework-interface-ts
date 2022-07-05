@@ -1,0 +1,27 @@
+{
+  "name": "webHwInterface",
+  "packageManager": "yarn@3.0.2",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "mocha": "^9.1.3",
+    "parcel": "^2.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.6.4",
+    "util": "^0.12.4"
+  },
+  "scripts": {
+    "build-student-tests": "parcel build homeworks/*/main.js --dist-dir dist/ && cp teststyles.css dist/",
+    "build-server-tests": "parcel build homeworks/*/server.js --dist-dir server-tests/",
+    "start": "parcel ",
+    "createZips": "./scripts/createZips.sh",
+    "publish-files": "./scripts/publishTestFiles.sh"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "parcel": "^2.0.1"
+  }
+}
